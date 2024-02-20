@@ -1,0 +1,60 @@
+body {/*body styling*/
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, footer {/*Header, footer styling*/
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {/*Main body styling*/
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+article {/*Article styling*/
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/*Heading styling*/
+h1{
+    color: #f4f4f4;
+}
+
+h2 {
+    color: #333;
+}
+
+img {/*Image styling*/
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.lyrics {
+    white-space: pre-line; 
+    /* Preserve line breaks */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.song-details {
+    margin-top: 20px;
+}
+
+footer {
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
